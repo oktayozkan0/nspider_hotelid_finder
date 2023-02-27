@@ -21,3 +21,4 @@ while True:
             continue
         hotel_city = hotel["description"].replace("<strong>", "").replace("</strong>", "")
         print(f'hotel name: {hotel["originalName"]}\nhotel city: {hotel_city}\nhotel id: {hotel["id"]}\n')
+    print("------------------end------------------")
